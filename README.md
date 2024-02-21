@@ -1,3 +1,5 @@
+Aquí tienes el README modificado:
+
 ## YouTube Downloader
 
 Este script de Bash permite descargar videos de YouTube en diferentes formatos (mp3 o mp4) de manera interactiva, utilizando la herramienta `zenity` para la selección de la carpeta de destino y la entrada de la URL del video, así como para mostrar mensajes al usuario.
@@ -7,20 +9,31 @@ Este script de Bash permite descargar videos de YouTube en diferentes formatos (
 - `zenity`: Una utilidad para la creación de diálogos gráficos.
 - `youtube-dl`: Un programa de línea de comandos para descargar videos de YouTube y otros sitios.
 
+### Instalación de dependencias
+
+1. Asegúrate de tener instalado `youtube-dl` y `zenity`. Puedes instalarlos ejecutando:
+
+    ```bash
+    sudo apt-get install youtube-dl zenity
+    ```
+
 ### Uso
 
-1. Ejecuta el script en un terminal.
-2. Selecciona la carpeta de destino para guardar las descargas.
-3. Ingresa la URL del video de YouTube que deseas descargar.
-4. Selecciona el formato de descarga (mp3 o mp4).
-5. Repite el proceso para descargar más videos, o escribe "salir" para finalizar.
+1. Descarga el script `youtube_downloader.sh` y dale permisos de ejecución:
 
-### Instrucciones de Instalación
+    ```bash
+    chmod +x youtube_downloader.sh
+    ```
 
-1. Asegúrate de tener instaladas las dependencias necesarias: `zenity` y `youtube-dl`.
-2. Descarga el script `youtube_downloader.sh`.
-3. Abre un terminal y navega hasta el directorio donde se encuentra el script.
-4. Ejecuta el script utilizando el comando `bash youtube_downloader.sh`.
+2. Ejecuta el script en un terminal.
+
+3. Selecciona la carpeta de destino para guardar las descargas.
+
+4. Ingresa la URL del video de YouTube que deseas descargar.
+
+5. Selecciona el formato de descarga (mp3 o mp4).
+
+6. Repite el proceso para descargar más videos, o escribe "salir" para finalizar.
 
 ### Ejemplo de Uso
 
