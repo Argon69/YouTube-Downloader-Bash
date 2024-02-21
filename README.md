@@ -1,6 +1,6 @@
 Aquí tienes el README modificado:
 
-## YouTube Downloader
+## YouTube Downloader Bash
 
 Este script de Bash permite descargar videos de YouTube en diferentes formatos (mp3 o mp4) de manera interactiva, utilizando la herramienta `zenity` para la selección de la carpeta de destino y la entrada de la URL del video, así como para mostrar mensajes al usuario.
 
